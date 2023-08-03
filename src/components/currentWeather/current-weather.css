@@ -1,3 +1,10 @@
+.today-title {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 20px;
+}
 .weather {
   width: 300px;
   border-radius: 6px;
@@ -66,4 +73,11 @@
 
 .parameter-label.top {
   border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 375px) {
+  .weather {
+    width: 250px;
+    margin: 10px auto 0 auto;
+    padding: 0 10px 10px 10px;
+  }
 }
